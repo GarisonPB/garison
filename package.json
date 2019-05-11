@@ -9,7 +9,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy:gh": "ng bulid --prod --base-href='https://github.com/GarisonPB/garison-.git/' && ngh",
+    "deploy:gh": "ng build --prod --base-href='https://github.com/GarisonPB/garison-.git/' && ngh",
     "postinstall": "ng build --output-path heroicon-app --aot --prod"
   },
   "private": true,
